@@ -38,7 +38,7 @@ Busca e filtragem de elementos
 
 Boas práticas de estruturação de projeto Java
 
-🛠 Tecnologias utilizadas
+Tecnologias utilizadas
 
 Java 17
 
@@ -46,6 +46,6 @@ IntelliJ IDEA
 
 Git e GitHub
 
-🎯 Objetivo
+Objetivo
 
 Consolidar a base da linguagem Java e evoluir gradualmente para projetos mais estruturados, aplicando boas práticas de desenvolvimento e versionamento de código.
