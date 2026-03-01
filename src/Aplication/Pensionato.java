@@ -18,7 +18,7 @@ public class Pensionato {
         for(int i=0; i<n; i++){
             System.out.println();
             System.out.println();
-            System.out.println("Rent #" + (i+1));                          
+            System.out.println("Rent #" + (i+1));
             System.out.println("Name: ");
 
             String name = sc.nextLine();
