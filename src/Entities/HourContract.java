@@ -4,14 +4,14 @@ import java.util.Date;
 
 public class HourContract {
 
-    private Date Date;
+    private Date date;
     private Double valuePerHour;
     private Integer hours;
 
-    public HourContract(Date date, Integer hours, Double valuePerHour) {
-        Date = date;
-        this.hours = hours;
+    public HourContract(Date date, Double valuePerHour, Integer hours) {
+        this.date = date;
         this.valuePerHour = valuePerHour;
+        this.hours = hours;
     }
 
     public HourContract() {
@@ -19,11 +19,11 @@ public class HourContract {
     }
 
     public Date getDate() {
-        return Date;
+        return date;
     }
 
     public void setDate(Date date) {
-        Date = date;
+        this.date = date;
     }
 
     public Integer getHours() {
