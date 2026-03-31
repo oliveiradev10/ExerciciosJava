@@ -4,7 +4,7 @@ public class Company extends TaxPayer {
 
     private Integer numberOfEmployees;
 
-    public Company(Double annualIncome, String name, Integer numberOfEmployees) {
+    public Company(String name, Double annualIncome, Integer numberOfEmployees) {
         super(name, annualIncome);
         this.numberOfEmployees = numberOfEmployees;
     }
@@ -22,7 +22,7 @@ public class Company extends TaxPayer {
         double income = getAnnualIncome();
         double basicTax;
 
-        if( numberOfEmployees != null && numberOfEmployees <= 10){
+        if( numberOfEmployees <= 10){
             basicTax = income * 0.16;
 
         } else{

@@ -32,7 +32,7 @@ public class Individual extends TaxPayer {
 
         }
 
-        double healthDiscount = (healthExpenditures == null) ? 0.0 : healthExpenditures * 0.5;
+        double healthDiscount = healthExpenditures * 0.5;
 
         return basicTax - healthDiscount;
 
