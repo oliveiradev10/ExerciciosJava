@@ -11,7 +11,7 @@ public abstract class TaxPayer {
 
     public TaxPayer(String name, Double annualIncome) {
         this.annualIncome = annualIncome;
-        this.name = name;
+        this.name = name;   
     }
 
     public String getName() {

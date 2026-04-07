@@ -28,8 +28,9 @@ public class Individual extends TaxPayer {
             basicTax = income * 0.15;
         } else {
             basicTax = income * 0.25;
-
-
+        }
+        if (basicTax < 0.0){
+            basicTax = 0.0;
         }
 
         double healthDiscount = healthExpenditures * 0.5;
